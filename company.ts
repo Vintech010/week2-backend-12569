@@ -5,13 +5,14 @@ interface Employee {
 }
 
 const employees: Employee[] = [
-    {id:1,name:"Alice",role:"Developer"},
-    {id:2,name:"Bob",role:"Designer"},
-    {id:3,name:"Charlie",role:"Manager"}
+    {id: 1, name: "Alice", role: "Developer"},
+    {id: 2, name: "Bob", role: "Designer"},
+    {id: 3, name: "Charlie", role: "ProductManager"}
 ];
 
-const employeeIntroduction: String[] =employees.map(emp => {
-    return `ID : ${emp.id} - Name : ${emp.name} - Role : ${emp.role}`;
+const employeeIntroductions: string[] = employees.map((emp: Employee) => {
+    return `Name:${emp.id} ${emp.name}, Role: ${emp.role}`;
 });
 
-console.log(employeeIntroduction);
+console.log(employees);
+console.log(employeeIntroductions);

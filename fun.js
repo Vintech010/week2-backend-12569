@@ -1,5 +1,5 @@
 "use strict";
 function greet(name) {
-    console.log(`Hello, ${name}!`);
+    console.log("Hello, World!", name);
 }
-greet("John");
+greet("Alice");

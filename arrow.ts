@@ -1,3 +1,11 @@
-const Greet1 = (name: string): void => console.log(`Hello, World! ${name}`);
+//const greet = (name: string): void => {
+   // console.log(`Hello, ${name}!`);
+//}
 
-Greet1("Alice");
+//const greet = (name: string): void => {
+    //console.log(`Hello, world! ${name}`);
+//};
+
+const greet = (name: string): void => console.log(`Hello, ${name}!`);
+
+greet("Alice");
